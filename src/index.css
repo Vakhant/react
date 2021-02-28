@@ -1,0 +1,41 @@
+@font-face{font-family: SpectralSC; src: url(src/fonts/SpectralSC-Regular.ttf)}
+@font-face{font-family: Spectral; src: url(src/fonts/Spectral-Regular.ttf)}
+
+*{margin: 0; padding: 0; font-size: 1rem; outline: none;}
+*::first-letter, textarea::first-letter{font-size: 1.3rem;}
+*::selection{background-color: rgba(0, 0, 0, 0.1);}
+
+html{font-size: 18px; line-height: 1;}
+
+body {
+  font-family: "SpectralSC", sans-serif, open-sans;
+  margin: 0;
+  background: linear-gradient(90deg, #ffcad5, #ffd0b4);
+  color: rgba(0,0,0,.6);
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0,0,0,.6);
+}
+
+button{
+  font-family: "SpectralSC", sans-serif, open-sans;
+  background-color: rgba(0,0,0,.1);
+  color: rgba(0,0,0,.6);
+  border: none;
+  cursor: pointer;
+}
+
+textarea{
+  font-family: "Spectral", sans-serif, open-sans;
+  background-color: rgba(0,0,0,.1);
+  resize: none;
+  color: rgba(0,0,0,.6);
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}

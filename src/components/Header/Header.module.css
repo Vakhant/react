@@ -1,0 +1,9 @@
+.header {
+  grid-area: h;
+  border-bottom: 1px solid rgba(0, 0, 0,.1);
+}
+
+.header .logo {
+  opacity: .6;
+  padding: 10px;
+}

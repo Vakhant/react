@@ -1,0 +1,45 @@
+.dialogsWrap{
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+.dialogs{
+    padding: 10px;
+}
+
+.dialog a{
+    transition: .3s;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.dialog a p{
+    margin-left: 10px;
+}
+
+.avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.dialog a:hover, .active{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.messages{
+    padding: 10px;
+}
+
+.message{
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: "Spectral-Regular";
+}
+.message:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,18 @@
+.nav {
+  grid-area: n;
+  border-right: 1px solid rgba(0, 0, 0,.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.nav div{width: 100%;}
+.nav a{
+  display: block;
+  padding: 10px;
+  color:rgb(91, 72, 100);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.nav a:hover, .nav a.active{
+  background-color: rgba(0, 0, 0, .1);
+}
